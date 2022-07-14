@@ -81,10 +81,14 @@ $string['restart'] = "Next customer";
 $string['print'] = "Print";
 $string['previouspurchases'] = "Previous purchases";
 $string['checkout'] = "Checkout";
-$string['nouserselected'] = 'No user selectedd';
+$string['nouserselected'] = 'No user selected';
 $string['selectuser'] = 'Select a user...';
 $string['user'] = "User...";
 $string['searchforitem'] = "Search for item...";
+
+$string['cash'] = "cash";
+$string['creditcard'] = "creditcard";
+$string['card'] = "EC card";
 
 $string['cancelpurchase'] = 'Cancel purchase';
 $string['canceled'] = 'Canceled';
@@ -113,3 +117,11 @@ $string['deductible'] = "Deductible:";
 $string['remainingcredit'] = "Remaining credit:";
 $string['remainingtotal'] = "Price:";
 
+$string['receipthtml'] = "Put in Template for receipt";
+$string['receipthtml:description'] = "You can use following placeholders - place
+ [[price]], [[pos]], [[name]] between [[items]] and [[/items]]. Before and afterwards
+  you can also use [[sum]], [[firstname]], [[lastname]], [[email]] and [[date]] (outside of [[items]] tag).
+  Only use basic HTML supported by TCPDF";
+
+$string['receiptimage'] = "Background image for cashiers receipt";
+$string['receiptimage:description'] = "Set a background image e.g. with logo";
